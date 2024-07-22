@@ -1,0 +1,83 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[19/Jul/2024 15:24:19] "GET /todos/ HTTP/1.1" 200 4687
+[19/Jul/2024 15:24:19] "GET /static/css/style.css HTTP/1.1" 304 0
+[19/Jul/2024 15:24:28] "POST /todos/add/ HTTP/1.1" 302 0
+[19/Jul/2024 15:24:28] "GET /todos/ HTTP/1.1" 200 5271
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/django-todo/manage.py", line 10, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/django-todo/manage.py", line 21, in <module>
+    main()
+  File "/home/ubuntu/projects/django-todo/manage.py", line 12, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[19/Jul/2024 19:25:34] "GET /todos/ HTTP/1.1" 200 5271
+[19/Jul/2024 19:25:38] "POST /todos/add/ HTTP/1.1" 302 0
+[19/Jul/2024 19:25:38] "GET /todos/ HTTP/1.1" 200 5848
+[19/Jul/2024 19:33:57] "GET /todos/ HTTP/1.1" 200 5848
+[19/Jul/2024 22:15:58] "GET / HTTP/1.0" 302 0
+Not Found: /.env
+[19/Jul/2024 22:31:21] "GET /.env HTTP/1.1" 404 2551
+[20/Jul/2024 00:10:18,222] - Broken pipe from ('167.94.145.109', 41486)
+[20/Jul/2024 00:10:21] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 00:10:28,194] - Broken pipe from ('167.94.145.109', 41614)
+[20/Jul/2024 00:10:31] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 00:10:32] code 505, message Invalid HTTP version (2.0)
+[20/Jul/2024 00:10:32] "PRI * HTTP/2.0" 505 -
+[20/Jul/2024 00:10:38] "GET /todos HTTP/1.1" 301 0
+[20/Jul/2024 00:10:38] code 505, message Invalid HTTP version (2.0)
+[20/Jul/2024 00:10:38] "PRI * HTTP/2.0" 505 -
+[20/Jul/2024 00:10:38] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 00:10:42] "GET /todos/ HTTP/1.1" 200 5848
+Not Found: /favicon.ico
+[20/Jul/2024 00:10:43] "GET /favicon.ico HTTP/1.1" 404 2572
+[20/Jul/2024 00:10:43] code 505, message Invalid HTTP version (2.0)
+[20/Jul/2024 00:10:43] "PRI * HTTP/2.0" 505 -
+[20/Jul/2024 00:10:44] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 00:10:48,958] - Broken pipe from ('167.94.145.109', 50854)
+[20/Jul/2024 00:10:54,235] - Broken pipe from ('167.94.145.109', 57090)
+Not Found: /.env
+[20/Jul/2024 00:54:15] "GET /.env HTTP/1.1" 404 2551
+[20/Jul/2024 01:07:00] code 400, message Bad request syntax ("\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ì\x95ÞãM\x8d\x9c']¶8pSÙ\x89L\x0fÏ5ý#FS")
+[20/Jul/2024 01:07:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Jul/2024 01:07:01] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03@\x8eZxRfo\x91\x8f¤kËR7\x8fç8]ÉR7ßÖ|ù1¢Xc\x94Kö\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[20/Jul/2024 01:07:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Jul/2024 01:59:03] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 02:20:47] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 02:20:47] "GET /todos HTTP/1.1" 301 0
+[20/Jul/2024 02:20:48] "GET /todos/ HTTP/1.1" 200 5848
+[20/Jul/2024 03:17:08] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 03:17:15,321] - Broken pipe from ('198.235.24.183', 59262)
+[20/Jul/2024 03:39:23] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 03:39:24] "GET /todos HTTP/1.1" 301 0
+[20/Jul/2024 03:39:24] "GET /todos/ HTTP/1.1" 200 5848
+Not Found: /owncloud/status.php
+[20/Jul/2024 05:06:28] "GET /owncloud/status.php HTTP/1.1" 404 2596
+Not Found: /status.php
+[20/Jul/2024 05:06:29] "GET /status.php HTTP/1.1" 404 2569
+[20/Jul/2024 05:22:58] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 05:22:58] "GET /todos HTTP/1.1" 301 0
+[20/Jul/2024 05:22:59] "GET /todos/ HTTP/1.1" 200 5848
+[20/Jul/2024 08:56:15] "GET / HTTP/1.1" 302 0
+[20/Jul/2024 08:57:54,473] - Broken pipe from ('205.210.31.17', 64840)
+[20/Jul/2024 11:52:50] "GET / HTTP/1.1" 302 0
